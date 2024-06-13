@@ -1,0 +1,14 @@
+﻿CREATE VIEW theRock.vwPatientTreatment
+AS
+SELECT
+patientTreatmentId,
+referralNumber,
+isPatientArrived,
+isPatientDeparted,
+isPatientSentBack,
+isPatientReturned,
+destinationTransportationCode,
+returnTransportationCode,
+treatmentNote
+FROM
+theRock.patientTreatment
